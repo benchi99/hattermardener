@@ -1,0 +1,4 @@
+# skip files that can be cooked locally
+CompiledScripts/
+Shadercache/
+*.uc1
