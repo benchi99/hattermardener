@@ -10,14 +10,12 @@
 
 class Hat_Collectible_Skin_Gark extends Hat_Collectible_Skin;
     
-
 defaultproperties
 {
-	HUDIcon = Texture2D'HatInTime_Hud_ItemIcons.PaintBrushes.Paintbrush_purple_yellow'
+	HUDIcon = Texture2D'restinpeacefriend_content.Textures.DyeIconGark'
 	ItemName = "WeWillMissYou"
 	ItemQuality = class'Hat_ItemQuality_Gold'
-	ItemDescription(0) = "Test"
-	SupportsRoulette = false;
+	ItemDescription(0) = "WeWillMissYou_Desc"
 	
 	SkinColor[SkinColor_Dress] = (R=0, G=136,B=255)
 	SkinColor[SkinColor_Cape] = (R=230, G=202, B=150)

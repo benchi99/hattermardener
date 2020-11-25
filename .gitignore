@@ -1,4 +1,6 @@
 # skip files that can be cooked locally
 CompiledScripts/
 Shadercache/
+CookedPC/
+*.upk
 *.uc1
